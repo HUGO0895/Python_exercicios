@@ -1,0 +1,6 @@
+p_mercadoria=float(input("Preço da mercadoria:"))
+perc_desconto=float(input("Desconto:"))
+valor_desconto=(p_mercadoria*(perc_desconto/10**2))
+valor_a_pagar=p_mercadoria-(p_mercadoria*(perc_desconto/10**2))
+print("valor de desconto:%.3f"%valor_desconto)
+print("valor a pagar:%.3f"%valor_a_pagar)
