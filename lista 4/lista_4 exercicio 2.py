@@ -3,7 +3,6 @@ l=[]
 m=[]
 n=[]
 for x in range(20):
-            random.randint(1,100)
             m.append(random.randint(1,100))
             
 for x in m:
